@@ -9,6 +9,7 @@ import Heading from "./components/Heading.js";
 import StarProducts from "./components/StarProducts.js";
 import HotAccessoriesMenu from "./components/HotAccessoriesMenu.js";
 import HotAccessories from "./components/HotAccessories.js";
+import ProductReviews from "./components/ProductReviews.js";
 import data from "./data/data.json";
 function App() {
   return (
@@ -54,6 +55,8 @@ function App() {
           mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}
         />
       </Route>
+      <Heading text="PRODUCT REVIEWS" />
+      <ProductReviews productReviews={data.productReviews} />
     </Router>
   );
 }
