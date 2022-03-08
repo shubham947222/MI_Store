@@ -15,12 +15,25 @@ import Videos from "./components/Videos.js";
 import Banner from "./components/Banner.js";
 
 import Footer from "./components/Footer.js";
+
+import NavOption from "./components/NavOption.js";
 import data from "./data/data.json";
+
 function App() {
   return (
     <Router>
       <PreNavbar />
       <Navbar />
+      <NavOption
+        miPhones={data.miPhones}
+        redmiPhone={data.redmiPhones}
+        tv={data.tv}
+        laptop={data.laptop}
+        fitnessAndLifeStyle={data.fitnessAndLifeStyle}
+        hone={data.home}
+        accessories={data.accessories}
+        audio={data.audio}
+      />
       <Slider start={data.banner.start} />
       <Offers offers={data.offer} />
       <Heading text="STAR PRODUCT" />

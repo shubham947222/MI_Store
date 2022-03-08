@@ -19,7 +19,7 @@
   right: 2vmax;
 }
 
-/* #logoImage {
+#logoImage {
   transition: all 0.2s;
 
   transform: translateX(-58px);
@@ -27,7 +27,7 @@
 
 #logoImage:hover {
   transform: translateX(0);
-} */
+}
 
 .navlinks {
   color: rgb(59, 59, 59);
