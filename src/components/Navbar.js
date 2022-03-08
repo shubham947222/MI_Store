@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/nav.css";
 import data from "../data/data.json";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // const logo = "https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg";
 const searchIcon = (
   <svg
