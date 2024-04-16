@@ -25,7 +25,6 @@ const HotAccessories = ({
             lifeStyleCover ||
             mobileAccessoriesCover
           }
-          loading="lazy"
           alt="Cover"
           className="HotAccessories"
         />

@@ -3,7 +3,7 @@ import "../styles/NavCard.css";
 const NavCard = ({ name, price, image, index }) => {
   return (
     <div className="NavCard">
-      <img src={image} alt={`${index} card`} loading="lazy" />
+      <img src={image} alt={`${index} card`} />
       <p>{name}</p>
       <span>{price}</span>
     </div>
