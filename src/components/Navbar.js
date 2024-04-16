@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="nav">
       <div className="logo">
         <a href="/">
-          <img id="logoImage" src={data.logo} alt="Not" />
+          <img id="logoImage" src={data.logo} alt="Not" fetchpriority="high" />
         </a>
       </div>
       <a className="navlinks" href="/miphones">

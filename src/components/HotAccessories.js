@@ -26,6 +26,7 @@ const HotAccessories = ({
             mobileAccessoriesCover
           }
           alt="Cover"
+          fetchpriority="high"
           className="HotAccessories"
         />
       </div>

@@ -17,6 +17,7 @@ const Banner = ({ banner }) => {
             className="d-block w-100"
             src={item.image}
             alt={`${index} banner`}
+            fetchpriority="high"
           />
           <Carousel.Caption>
             <h3>{item.name}</h3>
