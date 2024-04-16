@@ -16,6 +16,7 @@ const Banner = ({ banner }) => {
             id="bannerImage"
             className="d-block w-100"
             src={item.image}
+            loading="lazy"
             alt={`${index} banner`}
           />
           <Carousel.Caption>
